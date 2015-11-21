@@ -1,0 +1,49 @@
+.m5 {
+    margin: 5px;
+}
+.m10 {
+    margin: 10px;
+}
+.p8 {
+    padding: 8px;
+}
+.navbar {
+    z-index: 1;
+}
+
+.inactive-message * {
+    opacity: 0.7;
+}
+
+.current_username {
+    color: #337AB7;
+}
+
+.btn-upload-image {
+    cursor: pointer;
+    background: url(../img/camera.png) no-repeat;
+    background-position: center;
+    padding: 5px;
+}
+.btn-upload-image input {
+    cursor: pointer;
+}
+
+.pm_users li {
+    margin: 10px 5px 5px 5px;
+    background-color: #fff;
+    height: 35px;
+}
+.pm_users li a {
+    padding: 0 10px;
+    width: 82%;
+    background-color: inherit !important;
+}
+.pm_users li i.fa-close {
+    margin-top: 2px;
+}
+
+.messages-list li a:hover {
+    text-decoration: none;
+    font-size: 16px;
+}

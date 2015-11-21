@@ -1,0 +1,31 @@
+{
+  "name": "chat",
+  "version": "0.0.1",
+  "authors": [
+    "Todorescu Tudor"
+  ],
+  "description": "-",
+  "main": "app.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "chat",
+    "app"
+  ],
+  "license": "MIT",
+  "homepage": "-",
+  "dependencies": {
+    "angular": "~1.4.6",
+    "angular-bootstrap": "~0.14.3",
+    "angular-route": "~1.4.7",
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0",
+    "jquery": "~2.1.4",
+    "requirejs": "~2.1.20",
+    "jquery.nicescroll": "jquery-nicescroll#~3.6.0",
+    "angular-nicescroll": "~0.0.8",
+    "jquery-ui": "~1.11.4",
+    "angular-fancybox-plus": "~1.0.2"
+  }
+}

@@ -1,0 +1,161 @@
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.messages-list {
+    width: 75%;
+    height: 100%;
+    float: left;
+}
+.users-list {
+    width: 15%;
+    height: 100%;
+    float: right;
+}
+
+.send-message {
+    height: 100px;
+    width: 100%;
+    float: left;
+}
+
+.current_state_public {
+    height: 30%;
+}
+.current_state_pm {
+    background: url(../img/paper.jpg);
+    padding: 5px 10px;
+    height: 100%;
+}
+.message-image {
+    position: absolute;
+    bottom: 90px;
+    right: 15px;
+}
+.message-image img {
+    height: 70px;
+    width: 70px;
+}
+.message-image i {
+    left: -5px;
+    top: -10px;
+    position: absolute;
+    background-color: #fff;
+    cursor: pointer;
+}
+.message-image-display img {
+    height: 150px;
+    width: auto;
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    .messages {
+    }
+    .users {
+    }
+    .send-message {
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .messages {
+        width: 80%;
+    }
+    .users {
+        width: 15%;
+    }
+    .send-message {
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .messages {
+    width: 83%;
+    }
+    .users {
+    width: 12%;
+    }
+    .send-message {
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {}
+
+@media only screen and (max-width : 480px) {
+    .messages {
+        width: 65%;
+        left: 15px;
+    }
+    .users {
+        width: 31%;
+        right: 15px;
+    }
+    .send-message {
+        width: 92%;
+    }
+    .messages-list li {
+        font-size: 12px;
+    }
+    .users-list li {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+    .messages {
+        width: 65%;
+    }
+    .users {
+        width: 25%;
+        right: 15px;
+    }
+    .send-message {
+        width: 90%;
+    }
+    .messages-list li {
+        font-size: 12px;
+    }
+    .users-list {
+        margin-left: -10px;
+    }
+    .users-list li {
+        font-size: 14px;
+    }
+    .hidden-xs_custom {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width : 320px) {
+    .hidden-sm_custom {
+        display: none !important;
+    }
+
+}
+@media only screen and (width : 320px) {
+    .hidden-sm_custom {
+        display: block !important;
+    }
+    .users-list {
+        margin-left: -10px;
+    }
+}
